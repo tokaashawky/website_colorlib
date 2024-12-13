@@ -1,0 +1,95 @@
+/* Mediaa */
+@media screen and (min-width:400.99px) and (max-width:1000px) {
+    .card {
+        width: 48%;
+    }
+
+    .inputIntro {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .SignUpContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imgSignUp {
+        width: 100%;
+        height: 50vh;
+        order: 1;
+    }
+
+    .form {
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fillForm>input {
+        width: 80%;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+
+    .fillForm>button {
+        margin-left: 0;
+        align-self: center;
+    }
+
+    .card3 {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .card {
+        width: 98%;
+
+    }
+
+    .inputIntro,
+    .headerIntro {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .Searchinput>input,
+    .Searchinput>button {
+        display: flex;
+        flex-flow: column wrap;
+        height: 30%;
+        width: 100%;
+    }
+
+    .SignUpContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imgSignUp {
+        width: 100%;
+        height: 40vh;
+        order: 1;
+    }
+
+    .form {
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .fillForm>input {
+        width: 80%;
+    }
+
+    .fillForm>button {
+        margin-left: 0;
+        align-self: center;
+    }
+
+    .card3 {
+        width: 98%;
+    }
+
+}

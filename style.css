@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    background: url("images/WhatsApp\ Image\ 2024-12-09\ at\ 1.00.41\ PM\ \(1\).jpeg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.headerIntro>img,
+.resizeScreenHeader>img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.headerIntro {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    top: 85px;
+}
+
+a {
+    text-decoration: none;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.ContentIntro1 {
+    width: 90%;
+    font-size: 70px;
+    padding-top: 300px;
+}
+
+.ContentIntro2 {
+    width: 69%;
+}
+
+.button {
+    background-color: rgb(216, 42, 78);
+
+    color: white;
+    align-self: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.inputIntro {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.sectionCourses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    gap: 30px;
+
+
+}
+
+.sectionCoursesHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.sectionCoursesHeader>div {
+    align-self: center;
+    width: 50%;
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+}
+
+.cardContainerCourses {
+    width: 70%;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(237, 244, 246)
+}
+
+.card1 {
+    width: 29%;
+}
+
+.card:hover {
+    background-color: rgb(216, 42, 78);
+}
+
+
+
+.cardImg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.infoCard {
+    padding: 10px;
+    text-align: center;
+}
+
+.infoCard h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.nOfCourses {
+    margin-top: 10px;
+    color: #ec0909;
+    font-weight: bold;
+}
+
+
+
+
+.SearchContainer {
+    margin: 90px auto;
+    background-color: rgb(216, 42, 78);
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    gap: 20px;
+
+}
+
+
+.Searchinput {
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Searchinput>input {
+    background-color: rgb(237, 244, 246);
+    border: none;
+    background-color: rgb(237, 244, 246);
+    height: 35%;
+    padding: 0 18px;
+}
+
+.Searchinput>input:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(216, 42, 78);
+}
+
+.Searchinput>button {
+    height: 30%;
+}
+
+
+
+.FeaturedCoursesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.FeaturedCoursesHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.FeaturedCoursesHeader>div {
+
+    width: 60%;
+}
+
+
+
+.FeaturedCoursesOptions nav {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.FeaturedCoursesOptions nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.AuthorInfoCard {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+
+
+}
+
+.AuthorInfoCard .authorImg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.FeaturedCoursesCardsContainer {
+    width: 100%;
+
+
+
+}
+
+.card2 {
+    width: 24%;
+    position: relative;
+}
+
+.priceCard {
+    position: absolute;
+    top: -10px;
+    left: 8px;
+    margin-top: 20px;
+    padding: 5px;
+
+    box-sizing: border-box;
+    background-color: rgb(216, 42, 78);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
+
+.SignUpContainer {
+    display: flex;
+    background-color: rgb(216, 42, 78);
+    width: 100%;
+    height: 150vh;
+
+}
+
+.form {
+    width: 55%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.ContentSignUp>div {
+    justify-self: center;
+    padding: 30px;
+
+}
+
+.ContentSignUp>h2 {
+    justify-self: center;
+    padding: 10px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.imgSignUp {
+    width: 45%;
+    background-image: url(./images/signup-bg.jpg);
+    background-size: cover;
+}
+
+.fillForm {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+
+}
+
+.fillForm>input {
+    width: 60%;
+    height: 10%;
+}
+
+.fillForm>button {
+    height: 10%;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+
+#UploadCourseButton {
+    background-color: #3E3E3E;
+}
+
+
+
+.registerContainer {
+    margin: 80px auto;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(216, 42, 78);
+}
+
+
+.card3 {
+    width: 19%;
+}
+
+
+.card3 ul li::marker {
+    color: rgb(216, 42, 78);
+}
+
+.card3 ul li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+
+.newsletter {
+    box-sizing: border-box;
+}
+
+.newsletter>p {
+    color: #60595987;
+    font-size: small;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-style: italic;
+
+}
+
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(237, 244, 246);
+    padding: 20px;
+}
+
+.Copyright {
+
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
